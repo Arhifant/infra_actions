@@ -4,6 +4,7 @@ on: [push]
 jobs:
   tests: 
     runs-on: ubuntu-latest
+    steps:
     # Запуск actions checkout — готового скрипта 
     # для клонирования репозитория на виртуальный сервер GitHub
     - uses: actions/checkout@v2
